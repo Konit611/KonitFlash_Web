@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "home": {
+      "title": "KonitFlash — Flashcards that stick",
+      "description": "Official site for the KonitFlash flashcard app. Download CSV decks and learn how to get the most out of it."
+    },
+    "decks": {
+      "title": "Shared decks — KonitFlash"
+    },
+    "guides": {
+      "title": "Guides — KonitFlash"
+    }
+  },
+  "nav": {
+    "guides": "Guides",
+    "decks": "Decks",
+    "language": "Language"
+  },
+  "footer": {
+    "copyright": "© {year} KonitFlash"
+  },
+  "hero": {
+    "badge": "SM-2 spaced repetition flashcards",
+    "titleLine1": "Reviewed once, exactly",
+    "titleLine2": "before you'd forget.",
+    "description": "KonitFlash uses the scientifically validated SM-2 algorithm to compute the optimal review time for every card. Whether you build the deck or import it from CSV — study less, remember longer.",
+    "browseDecks": "Browse decks"
+  },
+  "cta": {
+    "comingSoon": "Coming soon to the App Store",
+    "download": "Download on the App Store"
+  },
+  "features": {
+    "eyebrow": "Features",
+    "heading": "Six quiet habits the app builds for you",
+    "items": {
+      "sm2": {
+        "title": "SM-2 spaced repetition",
+        "body": "Rate each card Again · Hard · Good · Easy — the algorithm schedules the next review right before you'd forget."
+      },
+      "csv": {
+        "title": "CSV import",
+        "body": "Bring in CSVs exported from NotebookLM and friends. Two columns — front and back — is all it takes."
+      },
+      "icloud": {
+        "title": "iCloud sync",
+        "body": "Start on iPhone, keep going on Mac. Decks, cards, and review history sync automatically."
+      },
+      "flip": {
+        "title": "3D card flip",
+        "body": "The little flip animation when you reveal the back. Small delights build the habit."
+      },
+      "stats": {
+        "title": "Study stats",
+        "body": "Streaks, today's review load, and the last seven days of activity — all at a glance."
+      },
+      "mac": {
+        "title": "Mac keyboard support",
+        "body": "Space flips the card, 1–4 rate it. On Mac, studying never breaks flow for the mouse."
+      }
+    }
+  },
+  "decksPreview": {
+    "eyebrow": "Shared Decks",
+    "heading": "CSV decks, ready to go",
+    "seeAll": "See all →",
+    "empty": "The first shared deck is on its way.",
+    "cardCountSuffix": "cards",
+    "csvLabel": "CSV"
+  },
+  "finalCta": {
+    "heading": "Want to remember today's cards tomorrow?",
+    "body": "Install KonitFlash and build your first deck — a few minutes is all it takes."
+  },
+  "decksPage": {
+    "eyebrow": "Shared Decks",
+    "heading": "Shared decks",
+    "description": "Download ready-to-use CSV decks. Import them via \"CSV import\" in the app and start learning right away.",
+    "empty": "No decks shared yet.",
+    "download": "Download CSV"
+  },
+  "guidesPage": {
+    "eyebrow": "Guides",
+    "heading": "Guides",
+    "description": "Learn how to get 200% out of KonitFlash. More guides are on the way."
+  },
+  "deckItems": {
+    "toeic-basic-500": {
+      "title": "TOEIC Basics (5-card sample)",
+      "description": "Sample deck for checking the CSV format — two columns, front and back."
+    }
+  }
+}

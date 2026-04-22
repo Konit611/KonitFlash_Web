@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "home": {
+      "title": "KonitFlash — フラッシュカードアプリ",
+      "description": "KonitFlash フラッシュカードアプリの紹介と、CSV デッキや活用法を共有する公式サイトです。"
+    },
+    "decks": {
+      "title": "デッキ共有 — KonitFlash"
+    },
+    "guides": {
+      "title": "活用法 — KonitFlash"
+    }
+  },
+  "nav": {
+    "guides": "活用法",
+    "decks": "デッキ共有",
+    "language": "言語"
+  },
+  "footer": {
+    "copyright": "© {year} KonitFlash"
+  },
+  "hero": {
+    "badge": "SM-2 間隔反復フラッシュカード",
+    "titleLine1": "忘れる直前に、ちょうど",
+    "titleLine2": "もう一度見せるアプリ。",
+    "description": "KonitFlash は科学的に検証された SM-2 アルゴリズムで、カードごとに最適な復習タイミングを計算します。自作デッキも CSV で取り込んだデッキも — より少ない学習で、より長く覚えよう。",
+    "browseDecks": "デッキを見る"
+  },
+  "cta": {
+    "comingSoon": "App Store 近日公開",
+    "download": "App Store からダウンロード"
+  },
+  "features": {
+    "eyebrow": "Features",
+    "heading": "継続を支える 6 つの仕掛け",
+    "items": {
+      "sm2": {
+        "title": "SM-2 間隔反復",
+        "body": "Again · Hard · Good · Easy の 4 段階で評価するだけ。アルゴリズムが忘れる直前に復習を予約します。"
+      },
+      "csv": {
+        "title": "CSV インポート",
+        "body": "NotebookLM などから書き出した CSV をそのまま取り込めます。表・裏の 2 列があれば、すぐフラッシュカードに。"
+      },
+      "icloud": {
+        "title": "iCloud 同期",
+        "body": "iPhone ではじめて Mac で続ける。デッキ・カード・学習履歴が自動で同期されます。"
+      },
+      "flip": {
+        "title": "3D カードフリップ",
+        "body": "答えを確認するときのフリップ演出。小さな満足感が継続をつくります。"
+      },
+      "stats": {
+        "title": "学習統計",
+        "body": "連続学習日、今日の復習量、直近 7 日のアクティビティを一目で確認できます。"
+      },
+      "mac": {
+        "title": "Mac キーボード対応",
+        "body": "Space でカードをフリップ、1–4 で評価。Mac ならマウスなしでも学習が途切れません。"
+      }
+    }
+  },
+  "decksPreview": {
+    "eyebrow": "Shared Decks",
+    "heading": "すぐ使える CSV デッキ",
+    "seeAll": "すべて見る →",
+    "empty": "最初のデッキを準備中です。",
+    "cardCountSuffix": "枚",
+    "csvLabel": "CSV"
+  },
+  "finalCta": {
+    "heading": "今日覚えたカードを、明日も覚えていたいなら。",
+    "body": "KonitFlash をインストールして、最初のデッキを作ってみてください。数分で十分です。"
+  },
+  "decksPage": {
+    "eyebrow": "Shared Decks",
+    "heading": "デッキ共有",
+    "description": "すぐに使える CSV デッキをダウンロード。アプリの「CSV インポート」から取り込めば、そのまま学習できます。",
+    "empty": "まだ共有されたデッキはありません。",
+    "download": "CSV ダウンロード"
+  },
+  "guidesPage": {
+    "eyebrow": "Guides",
+    "heading": "活用法",
+    "description": "KonitFlash を 200% 活用する方法を紹介します。ガイドはまもなく更新予定です。"
+  },
+  "deckItems": {
+    "toeic-basic-500": {
+      "title": "TOEIC 基礎（サンプル 5 枚）",
+      "description": "CSV フォーマット確認用のサンプルデッキ。front / back の 2 列構成。"
+    }
+  }
+}

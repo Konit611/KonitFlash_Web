@@ -1,11 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
+import type { Dictionary, Locale } from "../[lang]/dictionaries";
+import LocaleSwitcher from "./LocaleSwitcher";
 
-export default function SiteHeader() {
+export default function SiteHeader({
+  lang,
+  dict,
+}: {
+  lang: Locale;
+  dict: Dictionary;
+}) {
   return (
     <header className="w-full border-b border-white/[.08]">
       <div className="mx-auto flex h-14 w-full max-w-5xl items-center justify-between px-6">
-        <Link href="/" className="flex items-center gap-2">
+        <Link href={`/${lang}`} className="flex items-center gap-2">
           <Image
             src="/app-logo.png"
             alt=""
@@ -19,12 +27,13 @@ export default function SiteHeader() {
           </span>
         </Link>
         <nav className="flex items-center gap-6 text-sm text-zinc-300">
-          <Link href="/guides" className="hover:text-white">
-            활용법
+          <Link href={`/${lang}/guides`} className="hover:text-white">
+            {dict.nav.guides}
           </Link>
-          <Link href="/decks" className="hover:text-white">
-            덱 공유
+          <Link href={`/${lang}/decks`} className="hover:text-white">
+            {dict.nav.decks}
           </Link>
+          <LocaleSwitcher currentLocale={lang} label={dict.nav.language} />
         </nav>
       </div>
     </header>

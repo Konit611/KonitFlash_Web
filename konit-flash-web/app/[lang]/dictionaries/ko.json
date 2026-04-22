@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "home": {
+      "title": "KonitFlash — 플래시카드 앱",
+      "description": "KonitFlash 플래시카드 앱 소개와 CSV 덱, 활용법을 공유하는 공식 웹 페이지입니다."
+    },
+    "decks": {
+      "title": "덱 공유 — KonitFlash"
+    },
+    "guides": {
+      "title": "활용법 — KonitFlash"
+    }
+  },
+  "nav": {
+    "guides": "활용법",
+    "decks": "덱 공유",
+    "language": "언어"
+  },
+  "footer": {
+    "copyright": "© {year} KonitFlash"
+  },
+  "hero": {
+    "badge": "SM-2 간격 반복 플래시카드",
+    "titleLine1": "잊기 직전에, 정확히",
+    "titleLine2": "한 번 더 보여주는 앱.",
+    "description": "KonitFlash는 과학적으로 검증된 SM-2 알고리즘으로 카드마다 최적의 복습 시점을 계산합니다. 직접 만든 덱이든, CSV로 불러온 덱이든 — 더 적게 공부하고 더 오래 기억하세요.",
+    "browseDecks": "덱 둘러보기"
+  },
+  "cta": {
+    "comingSoon": "App Store 출시 예정",
+    "download": "App Store에서 다운로드"
+  },
+  "features": {
+    "eyebrow": "Features",
+    "heading": "꾸준함을 만드는 여섯 가지 장치",
+    "items": {
+      "sm2": {
+        "title": "SM-2 간격 반복",
+        "body": "Again · Hard · Good · Easy 네 단계 평가만 하면, 알고리즘이 잊기 직전의 시점에 복습을 예약합니다."
+      },
+      "csv": {
+        "title": "CSV 임포트",
+        "body": "NotebookLM 등에서 내보낸 CSV를 그대로 불러오세요. 앞/뒤 두 컬럼이면 곧장 플래시카드가 됩니다."
+      },
+      "icloud": {
+        "title": "iCloud 동기화",
+        "body": "iPhone에서 시작하고 Mac에서 이어가세요. 덱·카드·학습 기록이 자동으로 동기화됩니다."
+      },
+      "flip": {
+        "title": "3D 카드 플립",
+        "body": "답을 확인할 때의 플립 애니메이션. 작은 만족감이 꾸준함을 만듭니다."
+      },
+      "stats": {
+        "title": "학습 통계",
+        "body": "연속 학습일, 오늘의 복습량, 지난 7일 활동을 한눈에 확인합니다."
+      },
+      "mac": {
+        "title": "Mac 키보드 지원",
+        "body": "Space로 카드 플립, 1–4 키로 등급. Mac에서는 마우스 없이도 학습이 끊기지 않습니다."
+      }
+    }
+  },
+  "decksPreview": {
+    "eyebrow": "Shared Decks",
+    "heading": "바로 가져다 쓰는 CSV 덱",
+    "seeAll": "전체 보기 →",
+    "empty": "곧 첫 번째 덱이 공유됩니다.",
+    "cardCountSuffix": "장",
+    "csvLabel": "CSV"
+  },
+  "finalCta": {
+    "heading": "오늘 본 카드를, 내일도 기억하고 싶다면.",
+    "body": "KonitFlash를 설치하고 첫 덱을 만들어보세요. 몇 분이면 충분합니다."
+  },
+  "decksPage": {
+    "eyebrow": "Shared Decks",
+    "heading": "덱 공유",
+    "description": "바로 가져다 쓸 수 있는 CSV 덱을 다운로드하세요. 앱에서 \"CSV 임포트\"로 불러오면 곧장 학습할 수 있습니다.",
+    "empty": "아직 공유된 덱이 없습니다.",
+    "download": "CSV 다운로드"
+  },
+  "guidesPage": {
+    "eyebrow": "Guides",
+    "heading": "활용법",
+    "description": "KonitFlash를 200% 활용하는 방법을 소개합니다. 가이드는 곧 업데이트됩니다."
+  },
+  "deckItems": {
+    "toeic-basic-500": {
+      "title": "TOEIC 기초 (샘플 5장)",
+      "description": "CSV 포맷 확인용 샘플 덱. front, back 두 컬럼 구조."
+    }
+  }
+}

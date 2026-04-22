@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "home": {
+      "title": "KonitFlash — 闪卡应用",
+      "description": "KonitFlash 闪卡应用的官方网站，介绍产品并分享 CSV 卡组与使用技巧。"
+    },
+    "decks": {
+      "title": "卡组共享 — KonitFlash"
+    },
+    "guides": {
+      "title": "使用指南 — KonitFlash"
+    }
+  },
+  "nav": {
+    "guides": "使用指南",
+    "decks": "卡组共享",
+    "language": "语言"
+  },
+  "footer": {
+    "copyright": "© {year} KonitFlash"
+  },
+  "hero": {
+    "badge": "SM-2 间隔重复闪卡",
+    "titleLine1": "在你将要遗忘前，",
+    "titleLine2": "恰好再出现一次。",
+    "description": "KonitFlash 采用经过科学验证的 SM-2 算法，为每张卡片计算最佳复习时机。无论是自建卡组还是从 CSV 导入 — 学得更少，记得更久。",
+    "browseDecks": "浏览卡组"
+  },
+  "cta": {
+    "comingSoon": "即将登陆 App Store",
+    "download": "在 App Store 下载"
+  },
+  "features": {
+    "eyebrow": "Features",
+    "heading": "六种让你坚持下去的小设计",
+    "items": {
+      "sm2": {
+        "title": "SM-2 间隔重复",
+        "body": "只需用 Again · Hard · Good · Easy 四档评分，算法会在你将要遗忘前安排下一次复习。"
+      },
+      "csv": {
+        "title": "CSV 导入",
+        "body": "直接导入 NotebookLM 等工具导出的 CSV，只要正反两列就能变成闪卡。"
+      },
+      "icloud": {
+        "title": "iCloud 同步",
+        "body": "在 iPhone 开始，在 Mac 继续。卡组、卡片和学习记录自动同步。"
+      },
+      "flip": {
+        "title": "3D 翻卡",
+        "body": "揭开答案时的翻卡动画。细小的满足感帮助你坚持下去。"
+      },
+      "stats": {
+        "title": "学习统计",
+        "body": "连续学习天数、今日复习量、近 7 天活动，一目了然。"
+      },
+      "mac": {
+        "title": "Mac 键盘支持",
+        "body": "Space 翻卡，1–4 评分。在 Mac 上无需鼠标也能保持学习节奏。"
+      }
+    }
+  },
+  "decksPreview": {
+    "eyebrow": "Shared Decks",
+    "heading": "开箱即用的 CSV 卡组",
+    "seeAll": "查看全部 →",
+    "empty": "首个共享卡组即将上线。",
+    "cardCountSuffix": "张",
+    "csvLabel": "CSV"
+  },
+  "finalCta": {
+    "heading": "想让今天看过的卡，明天还记得？",
+    "body": "安装 KonitFlash，创建你的第一个卡组吧 — 几分钟就够了。"
+  },
+  "decksPage": {
+    "eyebrow": "Shared Decks",
+    "heading": "卡组共享",
+    "description": "下载可直接使用的 CSV 卡组，通过应用中的「CSV 导入」载入即可立即开始学习。",
+    "empty": "还没有共享的卡组。",
+    "download": "下载 CSV"
+  },
+  "guidesPage": {
+    "eyebrow": "Guides",
+    "heading": "使用指南",
+    "description": "介绍如何将 KonitFlash 发挥到 200%。指南将陆续更新。"
+  },
+  "deckItems": {
+    "toeic-basic-500": {
+      "title": "TOEIC 基础（5 张示例）",
+      "description": "用于确认 CSV 格式的示例卡组。front、back 两列结构。"
+    }
+  }
+}
