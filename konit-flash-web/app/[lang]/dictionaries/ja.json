@@ -77,7 +77,14 @@
     "heading": "デッキ共有",
     "description": "すぐに使える CSV デッキをダウンロード。アプリの「CSV インポート」から取り込めば、そのまま学習できます。",
     "empty": "まだ共有されたデッキはありません。",
-    "download": "CSV ダウンロード"
+    "noResults": "条件に合うデッキがありません。",
+    "download": "CSV ダウンロード",
+    "filters": {
+      "all": "すべて",
+      "category": "カテゴリ",
+      "level": "レベル",
+      "languagePair": "言語"
+    }
   },
   "guidesPage": {
     "eyebrow": "Guides",
@@ -88,6 +95,25 @@
     "toeic-basic-500": {
       "title": "TOEIC 基礎（サンプル 5 枚）",
       "description": "CSV フォーマット確認用のサンプルデッキ。front / back の 2 列構成。"
+    }
+  },
+  "deckFilters": {
+    "category": {
+      "toeic": "TOEIC",
+      "toefl": "TOEFL",
+      "jlpt": "JLPT",
+      "hsk": "HSK",
+      "general": "一般"
+    },
+    "level": {
+      "beginner": "入門",
+      "intermediate": "中級",
+      "advanced": "上級"
+    },
+    "languagePair": {
+      "en-ko": "英 → 韓",
+      "ja-ko": "日 → 韓",
+      "zh-ko": "中 → 韓"
     }
   }
 }

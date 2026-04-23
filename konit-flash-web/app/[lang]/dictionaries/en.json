@@ -77,7 +77,14 @@
     "heading": "Shared decks",
     "description": "Download ready-to-use CSV decks. Import them via \"CSV import\" in the app and start learning right away.",
     "empty": "No decks shared yet.",
-    "download": "Download CSV"
+    "noResults": "No decks match your filters.",
+    "download": "Download CSV",
+    "filters": {
+      "all": "All",
+      "category": "Category",
+      "level": "Level",
+      "languagePair": "Language"
+    }
   },
   "guidesPage": {
     "eyebrow": "Guides",
@@ -88,6 +95,25 @@
     "toeic-basic-500": {
       "title": "TOEIC Basics (5-card sample)",
       "description": "Sample deck for checking the CSV format — two columns, front and back."
+    }
+  },
+  "deckFilters": {
+    "category": {
+      "toeic": "TOEIC",
+      "toefl": "TOEFL",
+      "jlpt": "JLPT",
+      "hsk": "HSK",
+      "general": "General"
+    },
+    "level": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "languagePair": {
+      "en-ko": "EN → KO",
+      "ja-ko": "JA → KO",
+      "zh-ko": "ZH → KO"
     }
   }
 }

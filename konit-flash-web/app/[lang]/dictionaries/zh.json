@@ -77,7 +77,14 @@
     "heading": "卡组共享",
     "description": "下载可直接使用的 CSV 卡组，通过应用中的「CSV 导入」载入即可立即开始学习。",
     "empty": "还没有共享的卡组。",
-    "download": "下载 CSV"
+    "noResults": "没有符合条件的卡组。",
+    "download": "下载 CSV",
+    "filters": {
+      "all": "全部",
+      "category": "分类",
+      "level": "级别",
+      "languagePair": "语言"
+    }
   },
   "guidesPage": {
     "eyebrow": "Guides",
@@ -88,6 +95,25 @@
     "toeic-basic-500": {
       "title": "TOEIC 基础（5 张示例）",
       "description": "用于确认 CSV 格式的示例卡组。front、back 两列结构。"
+    }
+  },
+  "deckFilters": {
+    "category": {
+      "toeic": "TOEIC",
+      "toefl": "TOEFL",
+      "jlpt": "JLPT",
+      "hsk": "HSK",
+      "general": "通用"
+    },
+    "level": {
+      "beginner": "入门",
+      "intermediate": "中级",
+      "advanced": "高级"
+    },
+    "languagePair": {
+      "en-ko": "英 → 韩",
+      "ja-ko": "日 → 韩",
+      "zh-ko": "中 → 韩"
     }
   }
 }
