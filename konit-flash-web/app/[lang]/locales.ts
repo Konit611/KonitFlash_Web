@@ -17,5 +17,16 @@ export const localeLabels: Record<Locale, string> = {
   zh: "中文",
 };
 
+const APP_STORE_ID = "6760538485";
+const appStoreStorefront: Record<Locale, string> = {
+  ko: "kr",
+  en: "us",
+  ja: "jp",
+  zh: "cn",
+};
+
+export const appStoreUrl = (locale: Locale): string =>
+  `https://apps.apple.com/${appStoreStorefront[locale]}/app/id${APP_STORE_ID}`;
+
 export const isLocale = (value: string): value is Locale =>
   (locales as readonly string[]).includes(value);

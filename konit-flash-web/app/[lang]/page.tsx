@@ -7,8 +7,7 @@ import {
   hasLocale,
   type Dictionary,
 } from "./dictionaries";
-
-const APP_STORE_URL = ""; // TODO: fill when live
+import { appStoreUrl } from "./locales";
 
 const FEATURE_KEYS = ["sm2", "csv", "icloud", "flip", "stats", "mac"] as const;
 const FEATURE_ACCENTS: Record<(typeof FEATURE_KEYS)[number], string> = {
@@ -54,7 +53,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
             </p>
           </div>
           <div className="flex flex-wrap items-center gap-3 pt-2">
-            <DownloadButton dict={dict} />
+            <DownloadButton dict={dict} href={appStoreUrl(lang)} />
             <Link
               href={`/${lang}/decks`}
               className="inline-flex items-center gap-2 rounded-full border border-white/15 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-white/[.06]"
@@ -167,7 +166,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
               {dict.finalCta.heading}
             </h2>
             <p className="max-w-xl text-zinc-300">{dict.finalCta.body}</p>
-            <DownloadButton dict={dict} />
+            <DownloadButton dict={dict} href={appStoreUrl(lang)} />
           </div>
         </div>
       </section>
@@ -175,27 +174,13 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
   );
 }
 
-function DownloadButton({ dict }: { dict: Dictionary }) {
-  const disabled = !APP_STORE_URL;
-  const label = disabled ? dict.cta.comingSoon : dict.cta.download;
-
-  if (disabled) {
-    return (
-      <span
-        aria-disabled
-        className="inline-flex cursor-not-allowed items-center gap-2 rounded-full bg-brand-pink px-5 py-2.5 text-sm font-semibold text-[#040422] opacity-70"
-      >
-        {label}
-      </span>
-    );
-  }
-
+function DownloadButton({ dict, href }: { dict: Dictionary; href: string }) {
   return (
     <a
-      href={APP_STORE_URL}
+      href={href}
       className="inline-flex items-center gap-2 rounded-full bg-brand-pink px-5 py-2.5 text-sm font-semibold text-[#040422] transition-colors hover:bg-brand-pink-strong"
     >
-      {label}
+      {dict.cta.download}
     </a>
   );
 }
