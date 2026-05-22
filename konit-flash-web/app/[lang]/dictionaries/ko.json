@@ -9,6 +9,9 @@
     },
     "guides": {
       "title": "활용법 — KonitFlash"
+    },
+    "deckDetail": {
+      "titleTemplate": "{deckTitle} — KonitFlash"
     }
   },
   "nav": {
@@ -90,6 +93,25 @@
     "eyebrow": "Guides",
     "heading": "활용법",
     "description": "KonitFlash를 200% 활용하는 방법을 소개합니다. 가이드는 곧 업데이트됩니다."
+  },
+  "deckDetail": {
+    "backToList": "← 덱 공유",
+    "downloadCsv": "CSV 다운로드",
+    "openInApp": "앱에서 열기",
+    "previewEyebrow": "Preview",
+    "previewHeading": "카드 미리보기",
+    "previewNote": "상위 {shown}장만 표시합니다. 나머지 {rest}장은 앱에서 학습하세요.",
+    "previewNoteAll": "이 덱의 전체 {total}장입니다.",
+    "front": "앞면",
+    "back": "뒷면",
+    "howToEyebrow": "How to use",
+    "howToHeading": "이렇게 사용하세요",
+    "howToStep1Title": "CSV 다운로드",
+    "howToStep1Body": "위 버튼에서 CSV 파일을 받아두세요.",
+    "howToStep2Title": "앱에서 CSV 임포트",
+    "howToStep2Body": "KonitFlash 앱을 열고 \"CSV 임포트\"로 파일을 불러옵니다.",
+    "howToStep3Title": "학습 시작",
+    "howToStep3Body": "SM-2 알고리즘이 카드별 복습 시점을 자동으로 계산해줍니다."
   },
   "deckItems": {
     "toeic-basic-500": {

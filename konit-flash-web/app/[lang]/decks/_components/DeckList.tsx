@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useMemo, useState } from "react";
 import type {
   Deck,
@@ -7,6 +8,7 @@ import type {
   DeckLanguagePair,
   DeckLevel,
 } from "../_data/decks";
+import type { Locale } from "../../locales";
 
 type DeckItem = { title: string; description: string };
 
@@ -27,12 +29,13 @@ export type DeckListDict = {
 };
 
 type Props = {
+  lang: Locale;
   decks: Deck[];
   items: Record<string, DeckItem>;
   dict: DeckListDict;
 };
 
-export default function DeckList({ decks, items, dict }: Props) {
+export default function DeckList({ lang, decks, items, dict }: Props) {
   const [category, setCategory] = useState<DeckCategory | "all">("all");
   const [level, setLevel] = useState<DeckLevel | "all">("all");
   const [languagePair, setLanguagePair] = useState<DeckLanguagePair | "all">(
@@ -104,16 +107,19 @@ export default function DeckList({ decks, items, dict }: Props) {
             return (
               <li
                 key={deck.slug}
-                className="flex flex-col gap-3 rounded-2xl border border-white/[.08] bg-white/[.02] p-6"
+                className="flex flex-col gap-3 rounded-2xl border border-white/[.08] bg-white/[.02] p-6 transition-colors hover:border-white/[.16]"
               >
-                <div className="flex-1">
+                <Link
+                  href={`/${lang}/decks/${deck.slug}`}
+                  className="flex-1 outline-none focus-visible:ring-2 focus-visible:ring-brand-lime/60 rounded"
+                >
                   <h2 className="text-lg font-semibold tracking-tight">
                     {item.title}
                   </h2>
                   <p className="mt-2 text-sm text-zinc-400">
                     {item.description}
                   </p>
-                </div>
+                </Link>
                 <div className="flex items-center justify-between pt-2 text-xs text-zinc-500">
                   <span>
                     {deck.cardCount.toLocaleString()}

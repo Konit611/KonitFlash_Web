@@ -9,6 +9,9 @@
     },
     "guides": {
       "title": "Guides — KonitFlash"
+    },
+    "deckDetail": {
+      "titleTemplate": "{deckTitle} — KonitFlash"
     }
   },
   "nav": {
@@ -90,6 +93,25 @@
     "eyebrow": "Guides",
     "heading": "Guides",
     "description": "Learn how to get 200% out of KonitFlash. More guides are on the way."
+  },
+  "deckDetail": {
+    "backToList": "← Shared decks",
+    "downloadCsv": "Download CSV",
+    "openInApp": "Open in app",
+    "previewEyebrow": "Preview",
+    "previewHeading": "Card preview",
+    "previewNote": "Showing the first {shown} cards. Study the remaining {rest} in the app.",
+    "previewNoteAll": "All {total} cards in this deck.",
+    "front": "Front",
+    "back": "Back",
+    "howToEyebrow": "How to use",
+    "howToHeading": "How to use this deck",
+    "howToStep1Title": "Download the CSV",
+    "howToStep1Body": "Grab the CSV file from the button above.",
+    "howToStep2Title": "Import in the app",
+    "howToStep2Body": "Open KonitFlash and use \"CSV import\" to load the file.",
+    "howToStep3Title": "Start studying",
+    "howToStep3Body": "The SM-2 algorithm schedules each card's next review automatically."
   },
   "deckItems": {
     "toeic-basic-500": {

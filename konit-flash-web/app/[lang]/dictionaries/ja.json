@@ -9,6 +9,9 @@
     },
     "guides": {
       "title": "活用法 — KonitFlash"
+    },
+    "deckDetail": {
+      "titleTemplate": "{deckTitle} — KonitFlash"
     }
   },
   "nav": {
@@ -90,6 +93,25 @@
     "eyebrow": "Guides",
     "heading": "活用法",
     "description": "KonitFlash を 200% 活用する方法を紹介します。ガイドはまもなく更新予定です。"
+  },
+  "deckDetail": {
+    "backToList": "← デッキ共有",
+    "downloadCsv": "CSV ダウンロード",
+    "openInApp": "アプリで開く",
+    "previewEyebrow": "Preview",
+    "previewHeading": "カードのプレビュー",
+    "previewNote": "上位 {shown} 枚を表示しています。残り {rest} 枚はアプリで学習してください。",
+    "previewNoteAll": "このデッキの全 {total} 枚です。",
+    "front": "表",
+    "back": "裏",
+    "howToEyebrow": "How to use",
+    "howToHeading": "このデッキの使い方",
+    "howToStep1Title": "CSV をダウンロード",
+    "howToStep1Body": "上のボタンから CSV ファイルを保存してください。",
+    "howToStep2Title": "アプリで CSV インポート",
+    "howToStep2Body": "KonitFlash アプリを開き、「CSV インポート」からファイルを取り込みます。",
+    "howToStep3Title": "学習を開始",
+    "howToStep3Body": "SM-2 アルゴリズムがカードごとに次回の復習タイミングを計算します。"
   },
   "deckItems": {
     "toeic-basic-500": {

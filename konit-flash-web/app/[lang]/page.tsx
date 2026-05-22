@@ -131,12 +131,17 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
                 return (
                   <li
                     key={deck.slug}
-                    className="flex flex-col gap-3 rounded-2xl border border-white/[.08] bg-white/[.02] p-5"
+                    className="flex flex-col gap-3 rounded-2xl border border-white/[.08] bg-white/[.02] p-5 transition-colors hover:border-white/[.16]"
                   >
-                    <h3 className="text-base font-semibold tracking-tight">
-                      {item.title}
-                    </h3>
-                    <p className="text-sm text-zinc-400">{item.description}</p>
+                    <Link
+                      href={`/${lang}/decks/${deck.slug}`}
+                      className="flex flex-col gap-2 outline-none focus-visible:ring-2 focus-visible:ring-brand-lime/60 rounded"
+                    >
+                      <h3 className="text-base font-semibold tracking-tight">
+                        {item.title}
+                      </h3>
+                      <p className="text-sm text-zinc-400">{item.description}</p>
+                    </Link>
                     <div className="mt-auto flex items-center justify-between pt-2 text-xs text-zinc-500">
                       <span>
                         {deck.cardCount.toLocaleString()}

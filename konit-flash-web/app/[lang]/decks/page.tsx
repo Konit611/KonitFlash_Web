@@ -33,6 +33,7 @@ export default async function DecksPage({
       </header>
 
       <DeckList
+        lang={lang}
         decks={decks}
         items={dict.deckItems}
         dict={{

@@ -9,6 +9,9 @@
     },
     "guides": {
       "title": "使用指南 — KonitFlash"
+    },
+    "deckDetail": {
+      "titleTemplate": "{deckTitle} — KonitFlash"
     }
   },
   "nav": {
@@ -90,6 +93,25 @@
     "eyebrow": "Guides",
     "heading": "使用指南",
     "description": "介绍如何将 KonitFlash 发挥到 200%。指南将陆续更新。"
+  },
+  "deckDetail": {
+    "backToList": "← 卡组共享",
+    "downloadCsv": "下载 CSV",
+    "openInApp": "在应用中打开",
+    "previewEyebrow": "Preview",
+    "previewHeading": "卡片预览",
+    "previewNote": "仅显示前 {shown} 张，其余 {rest} 张请在应用中学习。",
+    "previewNoteAll": "本卡组共 {total} 张。",
+    "front": "正面",
+    "back": "背面",
+    "howToEyebrow": "How to use",
+    "howToHeading": "使用方法",
+    "howToStep1Title": "下载 CSV",
+    "howToStep1Body": "通过上方按钮保存 CSV 文件。",
+    "howToStep2Title": "在应用中导入",
+    "howToStep2Body": "打开 KonitFlash 应用，使用「CSV 导入」加载文件。",
+    "howToStep3Title": "开始学习",
+    "howToStep3Body": "SM-2 算法会自动为每张卡片安排下次复习时间。"
   },
   "deckItems": {
     "toeic-basic-500": {
